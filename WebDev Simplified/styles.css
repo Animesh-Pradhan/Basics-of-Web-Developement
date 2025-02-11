@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Raleway:wght@100..900&display=swap'); 
+
+@font-face {
+    font-family: "Booter";
+    src: url('./fonts/Booter\ -\ Zero\ Zero.woff') format('woff'),
+        url('./fonts/Booter\ -\ Zero\ Zero.woff2') format('woff2');
+
+    font-weight: normal;
+    font-style: normal;
+    }
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #696969;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ffffff4d;
+}
+ul a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px; 
+}
+
+ul a:hover {
+    background-color: #ffffff4d;
+}
+
+.nav ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.main-header {
+    background-image: url('./Images/Header\ Background.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    padding-bottom: 20px;
+ }
+
+.brand {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter";
+    font-weight: normal;
+    color: #fff;
+}
+
+.brand-lg {
+    font-size: 10em;
+}
+
+.content-section {
+    margin: 1em;
+    text-align: justify;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: Metal Mania;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px 20px 15px 0px;
+    border-radius: 50%;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-social li {
+    list-style: none;
+}
+
+.main-footer {
+    padding: 0 1.5em;
+    background: #38dfe5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: '#fff';
+}
+
+.btn {
+    padding: 1em;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.btn-header {
+    margin: 20px 40% 20px 10%;
+    width: 300px;
+    background: #ffffff1c;
+    border-radius: 8px;
+    color: #fff;
+    border: 2px solid #26b5e5;
+}
+
+.btn-play {
+    margin: 20px 50% 20px 45%;
+    width: 60px;
+    height: 60px;
+    background: #ffffff1c;
+    border-radius: 50%;
+    color: #14dee1;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #26b5e5;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
