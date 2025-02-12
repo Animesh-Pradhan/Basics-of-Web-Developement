@@ -147,3 +147,106 @@ ul a:hover {
 .btn:hover {
     cursor: pointer;
 }
+
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding: 15px 0px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background: #26b5e5;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #1788ae;
+}
+
+
+.section-flex {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.card-header {
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.card-footer .btn-primary {
+    font-size: 14px;
+    padding: 8px;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.cart {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.cart-head {
+    width:100%;
+    gap: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.cart-body {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+
+}
+
+.cart-body input {
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #777;
+}
+
+.cart-total {
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    gap: 10px;
+
+    margin-bottom: 10px;
+}
