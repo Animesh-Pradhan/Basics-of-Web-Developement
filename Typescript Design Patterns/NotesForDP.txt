@@ -1,0 +1,16 @@
+3 design patterns
+
+- abstarct factory pattern
+- builder pattern
+- factory method pattern
+
+
+ABSTRACT FACTORY PATTERN
+
+client(APP) ==> LoogerFactory(Factory)  ==> ProductionLogger
+                                        ==> DevelopementLogger
+
+- LoogerFactory decides the application is in developement mode or in production mode and give us the ndcessary logger.
+
+BUILDER PATTERN
+
