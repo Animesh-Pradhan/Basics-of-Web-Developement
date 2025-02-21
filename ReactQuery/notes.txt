@@ -1,0 +1,5 @@
+Handles 2 things 
+ a - get data - useQuery
+ b - update data - useMutation
+
+ 
